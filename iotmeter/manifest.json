@@ -1,11 +1,10 @@
 {
   "domain": "iotmeter",
   "name": "IoTMeter",
+  "version": "1.0.0",
   "codeowners": ["@lipic"],
   "config_flow": true,
-  "requirements": [
-    "iotmeter_api==1.0.0"
-  ],
+  "requirements": [],
   "dependencies": [],
   "documentation": "https://www.home-assistant.io/integrations/iotmeter",
   "iot_class": "local_polling"

@@ -17,9 +17,9 @@ Home Assistant automatically detects whether the device is an IoTMeter or a Smar
 1. Download the `iotmeter` directory from the [GitHub repository](https://github.com/vit-evmate/iotmeter-homeassistant).
 2. Copy the `iotmeter` directory to your Home Assistant custom components directory:
    ```sh
-   cp -r iotmeter /config/custom_components/
-3. ```pip install iotmeter_api==1.0.0
-4. Restart Home Assistant.
+   cp -r iotmeter ~/.homeassistant/custom_components/
+   ```
+3. Restart Home Assistant.
 
 ## HACS Installation
 1. Open HACS in your Home Assistant.
